@@ -1,0 +1,125 @@
+#blog-section{
+  padding: 100px 15px;
+  background: #f9fafc;
+}
+
+#blog-section .title h1{
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+
+#blog-section .blog-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 588px;
+  grid-gap: 15px;
+  overflow: hidden;
+}
+
+#blog-section .blog-container .post{
+  position: relative;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* #blog-section .blog-container .post-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-color: #f2f3f5 !important;
+} */
+
+#blog-section .blog-container .post .details{
+  background: white;
+  padding: 35px;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  transform: translate3d(0,-200px,0);
+  transition: all .4s ease-in-out;
+}
+
+
+/* #blog-section .blog-container .post .details h4{
+  font-size: 1.1rem;
+  color: #13171a;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 1.8rem;
+} */
+
+#blog-section .blog-container .post .details p{
+  font-size: 1.2rem;
+  color: #919191;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 1.8rem;
+  line-height: 1.5;
+}
+
+#blog-section .blog-container .post ol{
+  display: list-item;
+  list-style-type: decimal;
+}
+
+#blog-section .blog-container .post li{
+  padding: 15px;
+  color: #adad85;
+  font-size: 1rem;
+}
+
+#blog-section .blog-container .post .more{
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  bottom: 0;
+  background: white;
+  padding: 35px;
+}
+
+#blog-section .blog-container .post .more .button{
+  font-size: 1.3rem;
+  color: #13171a;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 1.8rem;
+  line-height: 1.5;
+  display: inline-block;
+  border-bottom: 2px solid #13171a;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  transition: all .4s ease-in-out .1s;
+  opacity: 1;
+  transform: translate3d(0, 40px, 0);
+}
+
+/* hover effect on post */
+#blog-section .blog-container .post:hover .details{
+  transform: translate3d(0,-600px,0);
+}
+
+#blog-section .blog-container .post:hover .more .button{
+  color: red;
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+
+/* Tablets */
+@media only screen and (max-width: 960px){
+
+}
+
+/* Tablets */
+@media only screen and (max-width: 767px){
+
+}

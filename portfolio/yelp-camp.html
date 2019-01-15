@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <style>
+      #portfolio-projects .technologies .icons{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-gap: 20px;
+        align-items: center;
+        justify-items: center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <div class="logo">
+        <a href="../index.html" class="name">  Michael Mansy </a>
+      </div>
+      <div class="header-menu">
+        <a href="../index.html">Home</a>
+        <a href="../index.html#services">Skills</a>
+        <a href="../index.html#portfolio-section">portfolio</a>
+        <a href="../index.html#blog-section">Blog</a>
+        <a href="../index.html#contact">Contact me</a>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+    <div class="mobile-menu">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#services">Skills</a>
+      <a href="../index.html#portfolio-section">portfolio</a>
+      <a href="../index.html#blog-section">Blog</a>
+      <a href="../index.html#contact">Contact me</a>
+    </div>
+
+    <section id="portfolio-projects">
+      <div class="container">
+        <div class="project-image">
+          <div class="img" style="background-image:url('../images/yelp-camp.PNG')"></div>
+        </div>
+        <h1>Pattern Project</h1>
+        <div class="info">
+          <div class="buttons">
+            <a href="https://rocky-journey-53529.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i>view project</a>
+            <a href="https://github.com/michaelmansy/Yelp-Camp" target="_blank"><i class="fas fa-code"></i>view code</a>
+          </div>
+        </div>
+        <p>Yelp Camp is considered to be my biggest and longest project. It is alos my first project using mongodb
+           I also used some new packages such as passport and mongoose and passport local for authentication.
+           I also used a package called flash which sends flash messages to the user whenever there is any error.
+           This app bascialy lets the users sign up and sees a list of campgrounds posted by any one else.
+           The user also has the capability to add a new campground (once they are logged in). A possibility of
+           leaving a comment is also there. the user has also the possibility to edit or delete his own
+           campground. However, it is not completely finished yet as I am still planning to add some features
+           like a google map and style all the other pages (currently the landing page only is completely
+           done). Once everything is done, Ill add a video walkthrough at the bottom of this page
+           which explains everything in the app.
+
+        </p>
+
+        <div class="technologies">
+          <h3>Technologies</h3>
+          <div class="icons">
+            <div class="icon">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="">
+            </div>
+
+            <div class="icon">
+              <img src="https://www.optimum7.com/wp-content/uploads/2013/04/CSS3.png">
+            </div>
+
+            <div class="icon">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png">
+            </div>
+
+            <div class="icon">
+              <img src="https://webassets.mongodb.com/_com_assets/cms/MongoDB-Logo-5c3a7405a85675366beb3a5ec4c032348c390b3f142f5e6dddf1d78e2df5cb5c.png" alt="">
+            </div>
+
+            <div class="icon">
+              <img src="https://www.drupal.org/files/project-images/bootstrap-stack.png" alt="">
+            </div>
+
+
+          </div>
+        </div>
+        <!-- <div class="video">
+          <h3>video walkthrough</h3>
+          <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> -->
+      </div>
+
+
+
+    </section>
+
+    <footer id="contact">
+      <div class="social-container">
+        <a href="https://www.linkedin.com/in/michael-mansy-89023b112/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/michaelmansy" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/mansydev/?hl=en" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <h5>michael mansy</h5>
+      <h6>front end web developer</h6>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
