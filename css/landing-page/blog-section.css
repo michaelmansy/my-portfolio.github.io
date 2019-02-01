@@ -67,13 +67,18 @@
   line-height: 1.5;
 }
 
+#blog-section .blog-container .post .details i{
+  font-size: 15px;
+  margin-left: 50px;
+}
+
 #blog-section .blog-container .post ol{
   display: list-item;
   list-style-type: decimal;
 }
 
 #blog-section .blog-container .post li{
-  padding: 15px;
+  padding: 10px;
   color: #adad85;
   font-size: 1rem;
 }
