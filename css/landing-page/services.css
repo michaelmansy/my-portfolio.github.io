@@ -89,12 +89,18 @@ i{
 
 /* Tablets */
 @media only screen and (max-width: 960px){
-  #services-section .services-container{
+  #services .services-container{
     grid-template-columns: 100%;
+  }
+  #services .services-container .box{
+  background: rgba(255, 255, 255, 1);
+  -webkit-box-shadow: -1px 21px 74px 17px rgba(35,38,23,0.89);
+  -moz-box-shadow: -1px 21px 74px 17px rgba(35,38,23,0.89);
+  box-shadow: -1px 21px 74px 17px rgba(35,38,23,0.89);
   }
 }
 
-/* Tablets */
+/* phones */
 @media only screen and (max-width: 767px){
 
 }

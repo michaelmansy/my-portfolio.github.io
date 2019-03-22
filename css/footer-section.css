@@ -6,9 +6,9 @@ footer{
 footer .social-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 200px;
-  justify-items: center;
-  align-items: center;
+  grid-gap: 100px;
+  /*justify-items: center;*/
+  /*align-items: center;*/
   max-width: 400px;
   margin: 0 auto;
 }
@@ -43,7 +43,7 @@ footer h6{
 
 /* Tablets */
 @media only screen and (max-width: 960px){
-
+ 
 }
 
 /* Tablets */
