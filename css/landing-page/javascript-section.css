@@ -174,3 +174,20 @@ h3{
     background-repeat: no-repeat;
   }
 }
+
+/* very small devices */
+@media only screen and (max-width: 500px){
+  .xop-img-5{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 120px;
+    margin-top: 70px;
+    background: linear-gradient(rgba(0, 0, 0, 0,50), rgba(0, 0, 0, 0.10));
+    background: url(../../images/budget-app.PNG);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+}
