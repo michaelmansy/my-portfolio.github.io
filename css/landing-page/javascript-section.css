@@ -109,19 +109,6 @@
   background-repeat: no-repeat;
 }
 
-.xop-img-5{
-  position: absolute;
-  width: 500px;
-  height: 300px;
-  left: 430px;
-  margin-top: 70px;
-  background: linear-gradient(rgba(0, 0, 0, 0,50), rgba(0, 0, 0, 0.10));
-  background: url(../../images/budget-app.PNG);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
 h3{
   font-family: 'sans-serif';
   text-decoration: none;
@@ -142,52 +129,3 @@ h3{
 
 }
 
-
-/* Tablets */
-@media only screen and (max-width: 960px){
-  .xop-img-5{
-    position: absolute;
-    width: 350px;
-    height: 300px;
-    left: 250px;
-    margin-top: 70px;
-    background: linear-gradient(rgba(0, 0, 0, 0,50), rgba(0, 0, 0, 0.10));
-    background: url(../../images/budget-app.PNG);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
-}
-
-/* Phones */
-@media only screen and (max-width: 767px){
-  .xop-img-5{
-    position: absolute;
-    width: 200px;
-    height: 300px;
-    left: 180px;
-    margin-top: 70px;
-    background: linear-gradient(rgba(0, 0, 0, 0,50), rgba(0, 0, 0, 0.10));
-    background: url(../../images/budget-app.PNG);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
-}
-
-/* very small devices */
-@media only screen and (max-width: 500px){
-  .xop-img-5{
-    position: absolute;
-    width: 200px;
-    height: 300px;
-    left: 120px;
-    margin-top: 70px;
-    background: linear-gradient(rgba(0, 0, 0, 0,50), rgba(0, 0, 0, 0.10));
-    background: url(../../images/budget-app.PNG);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
-
-}
